@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TimePicker
+            android:layout_width="match_parent"
+            android:id="@+id/tp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:id="@+id/number"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mob No."/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter text"
+            android:id="@+id/message"
+            android:inputType="textLongMessage"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Set Schedule"
+            android:id="@+id/sendsms"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
